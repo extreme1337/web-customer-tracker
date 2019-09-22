@@ -27,16 +27,25 @@
 <%--        add our html table here--%>
         <table>
           <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Email</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Email</th>
+              <th>Action</th>
           </tr>
 <%--          loop over and print our customers--%>
           <c:forEach var="tempCustomers" items="${customers}">
-            <tr>
-              <td>${tempCustomers.firstName}</td>
-              <td>${tempCustomers.lastName}</td>
-              <td>${tempCustomers.email}</td>
+<%--            construct and "update" link with customer id--%>
+              <c:url var="updateLink" value="/customer/showFormForUpdate">
+                  <c:param name="customerId" value="${tempCustomers.id}"/>
+              </c:url>
+              <tr>
+                <td>${tempCustomers.firstName}</td>
+                <td>${tempCustomers.lastName}</td>
+                <td>${tempCustomers.email}</td>
+                <td>
+<%--                    display the update link--%>
+                    <a href="${updateLink}">Update</a>
+                </td>
             </tr>
           </c:forEach>
         </table>
