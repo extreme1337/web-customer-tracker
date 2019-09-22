@@ -52,6 +52,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -60,17 +63,21 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1RC5dgIg4iEPT08OGMLXEmYrtHr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/biblioteke/c3p0-0.9.0.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/resources/css" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\marko\IdeaProjects\web-customer-tracker\web\resources\css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\marko\IdeaProjects\web-customer-tracker\web" />
       <recent name="C:\Users\marko\IdeaProjects\web-customer-tracker\web\WEB-INF\views" />
@@ -210,11 +217,22 @@
       <option name="presentableId" value="Default" />
       <updated>1569158325499</updated>
       <workItem from="1569158374666" duration="2496000" />
-      <workItem from="1569161926260" duration="4218000" />
+      <workItem from="1569161926260" duration="6544000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
