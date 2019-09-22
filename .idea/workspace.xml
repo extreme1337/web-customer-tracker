@@ -54,6 +54,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -68,7 +69,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/resources/css" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -80,6 +81,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\marko\IdeaProjects\web-customer-tracker\web" />
+      <recent name="C:\Users\marko\IdeaProjects\web-customer-tracker\web\WEB-INF" />
       <recent name="C:\Users\marko\IdeaProjects\web-customer-tracker\web\WEB-INF\views" />
     </key>
   </component>
@@ -217,7 +219,7 @@
       <option name="presentableId" value="Default" />
       <updated>1569158325499</updated>
       <workItem from="1569158374666" duration="2496000" />
-      <workItem from="1569161926260" duration="6544000" />
+      <workItem from="1569161926260" duration="8180000" />
     </task>
     <servers />
   </component>
