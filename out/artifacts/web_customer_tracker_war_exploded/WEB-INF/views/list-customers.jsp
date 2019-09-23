@@ -7,6 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
 <html>
   <head>
     <title>List Customers</title>
@@ -24,6 +25,11 @@
 <%--          put new button: Add Customer--%>
           <input type="button" value="Add Customer" onclick="window.location.href='showFormForAdd'; return false;"
                 class="add-button"/>
+<%--        search field--%>
+          <form:form action="search" method="POST">
+              <label>Search Customer:</label><input type="text" name="theSearchName"/>
+              <input type="submit" value="Search" class="add-button"/>
+          </form:form>
 <%--        add our html table here--%>
         <table>
           <tr>
